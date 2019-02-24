@@ -37,7 +37,7 @@ end)
 
 hs.hotkey.bind({"cmd", "alt", "ctrl"}, "pad5", function()
       local win = hs.window.focusedWindow()
-      size_to_column_width(win, 5)
+      size_to_column_width(win, 2.5)
 end)
 --[[
 Set height as proportion of screen height.
